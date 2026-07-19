@@ -1,0 +1,77 @@
+========================================
+=              style.css               =
+========================================
+/* Colors */
+:root {
+  --primary-blue: #1f6fb2;
+  --primary-brown: #c89b6b;
+  --bg-light: #f5f5f5;
+  --white: #ffffff;
+  --text-dark: #222;
+  --text-muted: #666;
+}
+
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-light);
+  color: var(--text-dark);
+}
+
+/* Header */
+header {
+  background: var(--white);
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--primary-blue);
+}
+
+.brand span {
+  color: var(--primary-brown);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+nav a.active {
+  color: var(--primary-blue);
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.hero-badge {
+  background: #e8f2fc;
+  color: var(--primary-blue);
+  padding: 0.3rem
