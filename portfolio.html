@@ -1,0 +1,55 @@
+========================================
+=           portfolio.html             =
+========================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio – CB PhotoFrames</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="nav-container">
+    <div class="brand">CB <span>PhotoFrames</span></div>
+    <div class="nav-toggle" onclick="toggleNav()">☰</div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="section">
+    <div class="section-header">
+      <h2>Real estate media portfolio</h2>
+      <p>A selection of interiors, exteriors, and detail shots from recent properties.</p>
+    </div>
+
+    <!-- Replace these with your actual images -->
+    <div class="card-grid">
+      <div class="card"><h3>Living Room</h3><p>Bright interior shot.</p></div>
+      <div class="card"><h3>Exterior</h3><p>Curb appeal shot.</p></div>
+      <div class="card"><h3>Kitchen</h3><p>Detail shot.</p></div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-inner">
+    <div>© <span id="year"></span> CB PhotoFrames – Real Estate Media in Lincoln, NE.</div>
+    <div>
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="contact.html">Book a shoot</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
